@@ -8,7 +8,6 @@ Feature: Menu bar feature
     When I click on MyJuke button
     Then I should see warning message
 
-  @t
   Scenario: Go to MyJuke section
     Given I am on MyJuke page
     And I login as a User
